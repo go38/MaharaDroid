@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MaharaDroid</string>
+    
+    <string name="artefacts_banner_text">Open source ePortfolios</string>
+    <string name="artefacts_banner_text2">[mah-har-rah;verb]: to think, thinking, thought</string>
+    <string name="artefacts_help">&lt;p&gt;Thanks for using MaharaDroid!&lt;/p&gt; 
+        &lt;p&gt;To get started touch Start button, then Preferences and
+        enter your Mahara username and set an initial token. At the same time visit Mahara (Settings) and set the same token value and click update. 
+        Back in MaharaDroid touch your back button, and an authentication attempt will be made.
+        &lt;/p&gt;
+        &lt;p&gt;
+        Once authenticated, check the Menu for writing Journal posts and uploading files.
+        Alternatively when taking photos, videos or recording audio, look for options to \'share\' these files with MaharaDroid.
+        &lt;/p&gt;
+    </string>
+    <string name="start_but">Start</string>
+    <string name="artefacts_no_saved_artefacts">Nothing saved at present.</string>
+    
+    <string name="options_menu_prefs">Preferences</string>
+    <string name="options_menu_account">Account &amp; Sync</string>
+    <string name="options_menu_camera">Camera</string>
+    <string name="options_menu_gallery">Gallery</string>
+    <string name="options_menu_compose">Write</string>
+    <string name="options_menu_deleteall">Delete All</string>
+    <string name="options_menu_uploadall">Upload All</string>
+    <string name="options_menu_viewsaved">Saved for upload</string>
+
+    <string name="context_menu_upload">Upload</string>
+    <string name="context_menu_view">View</string>
+    <string name="context_menu_delete">Delete</string>
+
+    <!--  Authentication Details -->
+    <string name="prefcat_authentication">Mahara Authentication Details</string>
+
+    <string name="pref_auth_username_key">auth.username</string>
+    <string name="pref_auth_username_title">Username</string>
+    <string name="pref_auth_username_summary">Enter your Mahara username</string>     
+
+    <string name="pref_auth_token_key">auth.token</string>
+    <string name="pref_auth_token_title">Token</string>
+    <string name="pref_auth_token_summary">Enter your Mahara mobile token</string>     
+
+    <!--  Connection Details -->
+    <string name="prefcat_connection">Mahara Connection Details</string>
+
+    <string name="pref_base_url_key">upload.base_uri</string>
+    <string name="pref_base_url_title">Mahara Base URI</string>
+    <string name="pref_base_url_summary">Enter the Mahara base URL for file posts &amp; syncronisation</string>
+    <string name="pref_base_url_default">http://solent-mahara.catalystdemo.co.uk</string>
+    
+    <string name="pref_upload_url_key">upload.uri</string>
+    <string name="pref_upload_url_title">Upload URI</string>
+    <string name="pref_upload_url_summary">Enter the URL to post files to Mahara</string>
+    <string name="pref_upload_url_default">/api/mobile/upload.php</string>
+
+    <string name="pref_sync_url_key">sync.uri</string>
+    <string name="pref_sync_url_title">Sync URI</string>
+    <string name="pref_sync_url_summary">Enter the sync URL to Mahara</string>
+    <string name="pref_sync_url_default">/api/mobile/sync.php</string>
+
+    <string name="pref_upload_connection_key">upload.connection</string>
+    <string name="pref_upload_connection_title">Connection Type</string>
+    <string name="pref_upload_connection_summary">Restrict upload to the following connection types (default is fall back to handset settings):</string>     
+    <string-array name="pref_upload_connection_entry">
+        <item>Default</item>
+        <item>WiFi only</item>
+        <item>Mobile only</item>
+    </string-array>
+    <string-array name="pref_upload_connection_entryValues">
+        <item></item>
+        <item>wifi</item>
+        <item>mobile</item>
+    </string-array>
+
+    <!--  Defaults -->
+    <string name="prefcat_defaults">Application Defaults</string>
+    
+    <string name="prefcat_defaults_post">Default Post Settings</string>
+    
+    <string name="pref_upload_journal_default_key">upload.journal.default</string>
+    <string name="pref_upload_journal_default_title">Journal post by default</string>
+    <string name="pref_upload_journal_default_summary">Check to select a default journal to post to</string>
+    <string name="pref_upload_journal_key">upload.journal</string>
+    <string name="pref_upload_journal_title">Default journal</string>
+    <string name="pref_upload_journal_summary">Select the default journal to post to.
+        										Note: nothing will be shown until your first sync.</string>
+        
+    <string name="pref_upload_folder_default_key">upload.folder.default</string>
+    <string name="pref_upload_folder_default_title">Upload to a default folder</string>
+    <string name="pref_upload_folder_default_summary">Check to select the default folder to upload your files into</string>
+    <string name="pref_upload_folder_key">upload.folder</string>
+    <string name="pref_upload_folder_title">Upload Folder</string>
+    <string name="pref_upload_folder_summary">Select the default folder to upload your files into. 
+        									Note: nothing will be shown until your first sync.</string>
+        
+    <string name="pref_upload_tags_default_key">upload.tags.default</string>
+    <string name="pref_upload_tags_default_title">Set tags by default</string>
+    <string name="pref_upload_tags_default_summary">Check to select the default tag to add to all uploaded files/journals</string>
+    <string name="pref_upload_tags_key">upload.tags</string>
+    <string name="pref_upload_tags_title">Tags</string>
+    <string name="pref_upload_tags_summary">Select the default tag to add to all uploaded files/journals.
+        									Note: nothing will be shown until your first sync.</string>
+
+    <string name="prefcat_defaults_notification">Default Notification Settings</string>
+    
+    <string name="pref_sync_notification_feedback_key">feedback</string>
+	<string name="pref_sync_notification_feedback_summary">Receive notifications when you receive feedback</string>
+	<string name="pref_sync_notification_feedback_title">Feedback</string>
+   	<string name="pref_sync_notification_newpost_key">newpost</string>
+	<string name="pref_sync_notification_newpost_summary">Receive notifications about new posts</string>
+	<string name="pref_sync_notification_newpost_title">New posts</string>		   	
+   	<string name="pref_sync_notification_maharamessage_key">maharamessage</string>
+	<string name="pref_sync_notification_maharamessage_summary">Receive notifications when you receive a message from Mahara</string>
+	<string name="pref_sync_notification_maharamessage_title">Mahara messages</string>
+   	<string name="pref_sync_notification_usermessage_key">usermessages</string>
+	<string name="pref_sync_notification_usermessage_summary">Receive notifications when users send messages to you</string>
+	<string name="pref_sync_notification_usermessage_title">User messages</string>
+
+    <!--  Notification defaults -->
+    <string name="pref_sync_notification_key">sync.notification</string>
+    <string name="pref_sync_notification_title">Enable Sync Notifications</string>
+    <string name="pref_sync_notification_summary">Raise notifications if new messages are found during syncronisation.</string>
+
+    <string name="prefcat_advanced">Advanced Settings</string>
+    
+    <string name="pref_sync_periodic_key">sync.periodic</string>
+    <string name="pref_sync_periodic_title">Periodic Sync</string>
+    <string name="pref_sync_periodic_summary">Enter the time in minutes to force a perioidc sync (0 or blank for none)</string>
+    
+    <string name="pref_sync_time_key">sync.time</string>
+    <string name="pref_sync_time_title">Last Sync Time</string>
+    <string name="pref_sync_time_summary">The time, in seconds, received from the server of last sync.</string>
+    
+    <string name="pref_menu_reset">Reset</string>
+    <string name="pref_menu_about">About</string>
+    <string name="pref_menu_scan">Scan</string>
+    
+    <string name="btnok">OK</string>
+    <string name="btnedit">Edit</string>
+    <string name="btnupload">Upload</string>
+    <string name="btnsave">Save</string>
+    <string name="btndelete">Delete</string>
+    <string name="btnsendlabel">Send</string>
+    <string name="btncancellabel">Cancel</string>
+    
+	<string name="lbluploadoptions">Upload Settings</string>
+	
+	<string name="artifact_retrieve_error">Error Retrieving Details</string>
+    <string name="artifactsettings">Post Settings</string>
+    <string name="transferprogress">Upload progress</string>
+    <string name="uploadstarting">Your Upload is Starting</string>
+    <string name="uploadfinished">Your Upload is Finished</string>
+    <string name="uploadfailed">Upload failed</string>
+    <string name="savefailed">Save failed</string>
+    <string name="uploadsaved">Upload saved</string>
+    <string name="uploadnotavailable">Sorry you can only uploaded files.</string>
+    <string name="capturefailed">Sorry there was a problem capturing that image.</string>
+    <string name="uploadingartifact">Uploading &#8230;</string>
+    <string name="uploading">Uploading</string>
+    <string name="uploadnoconnection">Sorry you don\'t have a working data connection to upload at this time.</string>
+    <string name="uploadincomplete">Sorry you must enter a title and an entry for journal posts</string>
+    <string name="filetransfers">File Transfers</string>
+    
+    <string name="upload_journal_label">Journal:</string>
+    <string name="upload_journal_prompt">Upload file(s) or post to a Journal</string>
+    <string name="upload_journal_default">Upload file(s)</string>
+    <string name="upload_is_draft_label"></string>
+    <string name="upload_is_draft_text">Check this if your entry is a draft. As a draft no one except you can see it.</string>
+    <string name="upload_allow_comments_label"></string>
+    <string name="upload_allow_comments_text">Check this to allow comments on your entry.</string>
+    <string name="upload_tags_prompt">Add existing tag</string>
+    <string name="upload_confirm_label"></string>
+    <string name="upload_confirm_text">Yes, the file I am attempting to upload is my own or I have express 
+								permission to reproduce and/or distribute this item. My use of this file 
+								does not breach any local Copyright legislation. This file also adheres to 
+								the Terms and Conditions outlined on this site.</string>
+    <string name="upload_title_label">Title:</string>
+    <string name="upload_file_description_label">Desc:</string>
+    <string name="upload_journal_description_label">Entry:</string>
+    <string name="upload_tags_label">Tag(s):</string>
+    <string name="upload_time_label">Last:</string>
+    <string name="upload_files_label">File:</string>
+    								
+    <string name="load_config_download_error">Sorry there was an error downloading the configuration file.</string>
+    <string name="load_config_error">Sorry there was an error parsing the configuration file.</string>
+    <string name="load_config_success">Successfully loaded the configuration file.</string>
+    <string name="scan_not_available">Sorry you need to install ZXing Barcode Scanner for this.</string>
+		
+    <string name="login_authenticating">Authenticating &#8230;</string>
+    <string name="only_one_account">Currently you may only have at most one account at any one time.</string>
+
+    <string name="auth_result_no_connection">Server address or port number incorrect</string>
+    <string name="auth_result_success">Authentication successful!</string>
+    <string name="auth_result_fail_short">Authentication failed</string>
+    <string name="auth_result_fail_long">Authentication failed, check your connection and user token.</string>     				
+        		
+    <!--  About page -->
+    <string name="about_title">About MaharaDroid</string>
+    <string name="about_top_section_title">MaharaDroid</string>    
+	<string name="about_sponsors_section_title">Sponsors</string>
+    <string name="about_code_contributors_section_title">Third Party Components</string>
+	<string name="about_licenses_section_title">Licenses</string>
+	<string name="about_version_label">Version</string>
+	<string name="about_license_label">License</string>
+</resources>
