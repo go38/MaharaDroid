@@ -104,7 +104,7 @@ ref: http://ant.apache.org/manual/
           overwrite="false" failonerror="false" verbose="true"/>
     <replace file="${RES_DIR}/values/strings.xml" 
           token="&lt;string name=&quot;pref_base_url_default&quot;&gt;&lt;/string&gt;" 
-          value="&lt;string name=&quot;pref_base_url_default&quot;&gt;http://solent-mahara.catalystdemo.co.uk&lt;/string&gt;" 
+          value="&lt;string name=&quot;pref_base_url_default&quot;&gt;https://i.hcc.edu.tw&lt;/string&gt;"
           summary="true"/>
           
       <!-- string name="app_name">MaharaDroid</string-->
